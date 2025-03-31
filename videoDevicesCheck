@@ -1,0 +1,17 @@
+import cv2
+
+def list_video_devices(max_devices=10):
+    devices = []
+    for device_id in range(max_devices):
+        cap = cv2.VideoCapture(device_id)
+        if cap.isOpened():
+            print(f"Device ID {device_id} is available.")
+            devices.append(device_id)
+            cap.release()
+        else:
+            print(f"Device ID {device_id} is not available.")
+    return devices
+
+if __name__ == "__main__":
+    available_devices = list_video_devices()
+    print(f"Available devices: {available_devices}")
