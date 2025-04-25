@@ -1,6 +1,6 @@
 # LLM-Powered Robotic Control for Pick-and-Place Applications
 
-[![`📕Paper`](https://arxiv.org/pdf/)] [![`BibTeX`](#citing-janali)] [![`Video Demo`](https://youtu.be/)]
+[![`📕Paper`](https://arxiv.org/pdf/)] [![`BibTeX`](#citing-janali)] [![`Video Demo`]([https://youtu.be/](https://www.youtube.com/watch?v=557UtpCLW8A))]
 
 This project demonstrates text-based control of a robot for pick-and-place applications, leveraging the power of Large Language Models (LLMs) to enable intuitive human-robot interaction.
 
